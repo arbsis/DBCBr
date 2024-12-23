@@ -6,6 +6,6 @@
   "mainsrc": "Source/",
   "projects": [],
   "dependencies": {
-    "github.com/hashload/dbebr": "^1.1.7"
+    "github.com/arbsis/dbebr": "^1.1.7"
   }
 }
