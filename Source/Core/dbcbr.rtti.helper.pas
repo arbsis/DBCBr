@@ -657,12 +657,12 @@ begin
       Exit(True);
   end
   else
-  if LValue.Kind in [tkInteger, tkInt64] then
-  begin
-    if LValue.AsType<Integer> = 0 then
-       Exit(True);
-  end
-  else
+//  if LValue.Kind in [tkInteger, tkInt64] then
+//  begin
+//    if LValue.AsType<Integer> = 0 then
+//       Exit(True);
+//  end
+//  else
   if LValue.Kind in [tkFloat] then
   begin
     if LValue.TypeInfo = TypeInfo(TDateTime) then
@@ -681,12 +681,12 @@ begin
     begin
       if LValue.AsType<TTime> = 0 then
         Exit(True);
-    end
-    else
-    begin
-      if LValue.AsType<Double> = 0 then
-        Exit(True);
     end;
+//    else
+//    begin
+//      if LValue.AsType<Double> = 0 then
+//        Exit(True);
+//    end;
   end;
 end;
 
