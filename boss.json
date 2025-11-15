@@ -1,11 +1,13 @@
 {
-  "name": "DBCBr",
-  "description": "",
-  "version": "0.0.3",
-  "homepage": "www.isaquepinheiro.com.br",
-  "mainsrc": "Source/",
-  "projects": [],
-  "dependencies": {
-    "github.com/arbsis/dbebr": "^0.0.1"
-  }
+	"name": "DBCBr",
+	"description": "",
+	"version": "0.0.3",
+	"homepage": "www.isaquepinheiro.com.br",
+	"mainsrc": "Source/",
+	"projects": [
+		"DBCBr.dproj"
+	],
+	"dependencies": {
+		"github.com/arbsis/dbebr": "^1.1.0"
+	}
 }

@@ -1,0 +1,77 @@
+﻿package DBCBr;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS ON}
+{$RANGECHECKS ON}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  DBEBr;
+
+contains
+  dbcbr.database.abstract in 'Source\Core\dbcbr.database.abstract.pas',
+  dbcbr.database.compare in 'Source\Core\dbcbr.database.compare.pas',
+  dbcbr.database.factory in 'Source\Core\dbcbr.database.factory.pas',
+  dbcbr.database.interfaces in 'Source\Core\dbcbr.database.interfaces.pas',
+  dbcbr.database.mapping in 'Source\Core\dbcbr.database.mapping.pas',
+  dbcbr.database.metainfo in 'Source\Core\dbcbr.database.metainfo.pas',
+  dbcbr.ddl.commands in 'Source\Core\dbcbr.ddl.commands.pas',
+  dbcbr.ddl.generator in 'Source\Core\dbcbr.ddl.generator.pas',
+  dbcbr.ddl.interfaces in 'Source\Core\dbcbr.ddl.interfaces.pas',
+  dbcbr.ddl.register in 'Source\Core\dbcbr.ddl.register.pas',
+  dbcbr.mapping.attributes in 'Source\Core\dbcbr.mapping.attributes.pas',
+  dbcbr.mapping.classes in 'Source\Core\dbcbr.mapping.classes.pas',
+  dbcbr.mapping.exceptions in 'Source\Core\dbcbr.mapping.exceptions.pas',
+  dbcbr.mapping.explorer in 'Source\Core\dbcbr.mapping.explorer.pas',
+  dbcbr.mapping.popular in 'Source\Core\dbcbr.mapping.popular.pas',
+  dbcbr.mapping.register in 'Source\Core\dbcbr.mapping.register.pas',
+  dbcbr.mapping.repository in 'Source\Core\dbcbr.mapping.repository.pas',
+  dbcbr.metadata.db.factory in 'Source\Core\dbcbr.metadata.db.factory.pas',
+  dbcbr.metadata.extract in 'Source\Core\dbcbr.metadata.extract.pas',
+  dbcbr.metadata.interfaces in 'Source\Core\dbcbr.metadata.interfaces.pas',
+  dbcbr.metadata.register in 'Source\Core\dbcbr.metadata.register.pas',
+  dbcbr.rtti.helper in 'Source\Core\dbcbr.rtti.helper.pas',
+  dbcbr.types.mapping in 'Source\Core\dbcbr.types.mapping.pas',
+  dbcbr.ddl.generator.absolutedb in 'Source\Drivers\dbcbr.ddl.generator.absolutedb.pas',
+  dbcbr.ddl.generator.firebird in 'Source\Drivers\dbcbr.ddl.generator.firebird.pas',
+  dbcbr.ddl.generator.firebird3 in 'Source\Drivers\dbcbr.ddl.generator.firebird3.pas',
+  dbcbr.ddl.generator.interbase in 'Source\Drivers\dbcbr.ddl.generator.interbase.pas',
+  dbcbr.ddl.generator.mssql in 'Source\Drivers\dbcbr.ddl.generator.mssql.pas',
+  dbcbr.ddl.generator.mysql in 'Source\Drivers\dbcbr.ddl.generator.mysql.pas',
+  dbcbr.ddl.generator.oracle in 'Source\Drivers\dbcbr.ddl.generator.oracle.pas',
+  dbcbr.ddl.generator.postgresql in 'Source\Drivers\dbcbr.ddl.generator.postgresql.pas',
+  dbcbr.ddl.generator.sqlite in 'Source\Drivers\dbcbr.ddl.generator.sqlite.pas',
+  dbcbr.metadata.firebird in 'Source\Drivers\dbcbr.metadata.firebird.pas',
+  dbcbr.metadata.firebird3 in 'Source\Drivers\dbcbr.metadata.firebird3.pas',
+  dbcbr.metadata.model in 'Source\Drivers\dbcbr.metadata.model.pas',
+  dbcbr.metadata.mssql in 'Source\Drivers\dbcbr.metadata.mssql.pas',
+  dbcbr.metadata.mysql in 'Source\Drivers\dbcbr.metadata.mysql.pas',
+  dbcbr.metadata.oracle in 'Source\Drivers\dbcbr.metadata.oracle.pas',
+  dbcbr.metadata.postgresql in 'Source\Drivers\dbcbr.metadata.postgresql.pas',
+  dbcbr.metadata.sqlite in 'Source\Drivers\dbcbr.metadata.sqlite.pas';
+
+end.
