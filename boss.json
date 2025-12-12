@@ -6,6 +6,6 @@
   "mainsrc": "Source/",
   "projects": [],
   "dependencies": {
-    "github.com/arbsis/dbebr": "^0.0.1"
+    "github.com/arbsis/dbebr": "^1.0.5"
   }
 }
