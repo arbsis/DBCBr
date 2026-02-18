@@ -30,12 +30,12 @@ unit dbcbr.mapping.explorer;
 interface
 
 uses
-  DB,
-  Rtti,
-  Classes,
-  TypInfo,
-  SysUtils,
-  Generics.Collections,
+  Data.DB,
+  System.Rtti,
+  System.Classes,
+  System.TypInfo,
+  System.SysUtils,
+  System.Generics.Collections,
   /// DBCBr
   dbcbr.rtti.helper,
   dbcbr.mapping.classes,

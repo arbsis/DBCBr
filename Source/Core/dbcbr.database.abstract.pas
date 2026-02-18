@@ -30,10 +30,10 @@ unit dbcbr.database.abstract;
 interface
 
 uses
-  DB,
-  Classes,
-  SysUtils,
-  Generics.Collections,
+  Data.DB,
+  System.Classes,
+  System.SysUtils,
+  System.Generics.Collections,
   /// ormbr
   dbebr.factory.interfaces,
   dbcbr.database.mapping,

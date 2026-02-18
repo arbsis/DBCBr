@@ -30,9 +30,9 @@ unit dbcbr.ddl.generator.absolutedb;
 interface
 
 uses
-  SysUtils,
-  StrUtils,
-  Generics.Collections,
+  System.SysUtils,
+  System.StrUtils,
+  System.Generics.Collections,
   dbebr.factory.interfaces,
   dbcbr.ddl.interfaces,
   dbcbr.ddl.register,

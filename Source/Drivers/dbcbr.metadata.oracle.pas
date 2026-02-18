@@ -30,11 +30,11 @@ unit dbcbr.metadata.oracle;
 interface
 
 uses
-  SysUtils,
-  StrUtils,
-  Variants,
-  DB,
-  Generics.Collections,
+  System.SysUtils,
+  System.StrUtils,
+  System.Variants,
+  Data.DB,
+  System.Generics.Collections,
   dbebr.factory.interfaces,
   dbcbr.metadata.register,
   dbcbr.metadata.extract,

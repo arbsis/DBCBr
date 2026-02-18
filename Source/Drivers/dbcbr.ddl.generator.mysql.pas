@@ -30,10 +30,10 @@ unit dbcbr.ddl.generator.mysql;
 interface
 
 uses
-  SysUtils,
-  StrUtils,
-  Variants,
-  Generics.Collections,
+  System.SysUtils,
+  System.StrUtils,
+  System.Variants,
+  System.Generics.Collections,
   dbebr.factory.interfaces,
   dbcbr.ddl.register,
   dbcbr.ddl.generator,

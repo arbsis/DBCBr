@@ -30,9 +30,9 @@ unit dbcbr.metadata.db.factory;
 interface
 
 uses
-  SysUtils,
-  Rtti,
-  Generics.Collections,
+  System.SysUtils,
+  System.Rtti,
+  System.Generics.Collections,
   dbebr.factory.interfaces,
   dbcbr.metadata.register,
   dbcbr.metadata.extract,

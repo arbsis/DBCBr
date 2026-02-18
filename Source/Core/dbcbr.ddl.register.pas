@@ -30,8 +30,8 @@ unit dbcbr.ddl.register;
 interface
 
 uses
-  SysUtils,
-  Generics.Collections,
+  System.SysUtils,
+  System.Generics.Collections,
   dbcbr.ddl.interfaces,
   dbcbr.ddl.generator,
   dbebr.factory.interfaces;

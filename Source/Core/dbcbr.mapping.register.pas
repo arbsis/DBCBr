@@ -28,9 +28,9 @@ unit dbcbr.mapping.register;
 interface
 
 uses
-  SysUtils,
-  Rtti,
-  Generics.Collections;
+  System.SysUtils,
+  System.Rtti,
+  System.Generics.Collections;
 
 type
   TRegisterClass = class

@@ -28,9 +28,9 @@ unit dbcbr.database.metainfo;
 interface
 
 uses
-  SysUtils,
-  Classes,
-  Generics.Collections,
+  System.SysUtils,
+  System.Classes,
+  System.Generics.Collections,
   dbebr.factory.interfaces,
   dbcbr.metadata.db.factory,
   dbcbr.database.mapping;

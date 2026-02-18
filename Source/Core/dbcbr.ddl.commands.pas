@@ -30,8 +30,8 @@ unit dbcbr.ddl.commands;
 interface
 
 uses
-  SysUtils,
-  StrUtils,
+  System.SysUtils,
+  System.StrUtils,
   dbcbr.database.mapping,
   dbcbr.ddl.interfaces;
 

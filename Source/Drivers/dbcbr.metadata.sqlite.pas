@@ -30,10 +30,10 @@ unit dbcbr.metadata.sqlite;
 interface
 
 uses
-  DB,
-  SysUtils,
-  Variants,
-  Generics.Collections,
+  Data.DB,
+  System.SysUtils,
+  System.Variants,
+  System.Generics.Collections,
   dbcbr.metadata.register,
   dbcbr.metadata.extract,
   dbcbr.database.mapping,

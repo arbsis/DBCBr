@@ -30,8 +30,8 @@ unit dbcbr.metadata.register;
 interface
 
 uses
-  SysUtils,
-  Generics.Collections,
+  System.SysUtils,
+  System.Generics.Collections,
   dbcbr.metadata.extract,
   dbebr.factory.interfaces;
 

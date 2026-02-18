@@ -30,12 +30,12 @@ unit dbcbr.metadata.absolutedb;
 interface
 
 uses
-  DB,
-  Classes,
-  SysUtils,
-  StrUtils,
-  Variants,
-  Generics.Collections,
+  Data.DB,
+  System.Classes,
+  System.SysUtils,
+  System.StrUtils,
+  System.Variants,
+  System.Generics.Collections,
   ABSMain,
   ABSTypes,
   dbebr.factory.interfaces,
