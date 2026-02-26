@@ -38,7 +38,8 @@ uses
   dbcbr.metadata.extract,
   dbcbr.database.mapping,
   dbcbr.database.abstract;
-type
+
+type
   TMetadataDBAbstract = class abstract
   protected
     FOwner: TDatabaseAbstract;

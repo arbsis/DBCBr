@@ -35,7 +35,7 @@ uses
   System.SysUtils,
   System.Generics.Collections,
   /// ormbr
-//  dbebr.factory.interfaces,
+  dbebr.factory.interfaces,
   dbcbr.database.mapping,
   dbcbr.database.interfaces,
   dbcbr.ddl.interfaces,
