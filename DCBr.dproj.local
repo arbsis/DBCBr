@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/02/26 16:25:43.000.115,=rtl.dcp</Transaction>
+    <Transaction>2026/02/26 16:26:14.000.377,C:\Users\Adriano\Documents\Embarcadero\Studio\Projects\Package1.dproj=D:\Desenvolvimento\DBCBr\DCBr.dproj</Transaction>
+    <Transaction>2026/02/26 16:26:55.000.859,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.database.factory.pas</Transaction>
+    <Transaction>2026/02/26 16:26:55.000.604,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.database.abstract.pas</Transaction>
+    <Transaction>2026/02/26 16:26:55.000.731,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.database.compare.pas</Transaction>
+    <Transaction>2026/02/26 16:26:56.000.205,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.database.mapping.pas</Transaction>
+    <Transaction>2026/02/26 16:26:56.000.744,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.ddl.generator.pas</Transaction>
+    <Transaction>2026/02/26 16:26:56.000.002,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.database.interfaces.pas</Transaction>
+    <Transaction>2026/02/26 16:26:56.000.930,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.ddl.interfaces.pas</Transaction>
+    <Transaction>2026/02/26 16:26:56.000.537,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.ddl.commands.pas</Transaction>
+    <Transaction>2026/02/26 16:26:56.000.366,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.database.metainfo.pas</Transaction>
+    <Transaction>2026/02/26 16:26:57.000.447,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.mapping.classes.pas</Transaction>
+    <Transaction>2026/02/26 16:26:57.000.620,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.mapping.exceptions.pas</Transaction>
+    <Transaction>2026/02/26 16:26:57.000.940,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.mapping.popular.pas</Transaction>
+    <Transaction>2026/02/26 16:26:57.000.081,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.ddl.register.pas</Transaction>
+    <Transaction>2026/02/26 16:26:57.000.780,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.mapping.explorer.pas</Transaction>
+    <Transaction>2026/02/26 16:26:57.000.272,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.mapping.attributes.pas</Transaction>
+    <Transaction>2026/02/26 16:26:58.000.415,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.mapping.repository.pas</Transaction>
+    <Transaction>2026/02/26 16:26:58.000.585,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.metadata.db.factory.pas</Transaction>
+    <Transaction>2026/02/26 16:26:58.000.189,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.mapping.register.pas</Transaction>
+    <Transaction>2026/02/26 16:26:58.000.781,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.metadata.extract.pas</Transaction>
+    <Transaction>2026/02/26 16:26:58.000.922,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.metadata.interfaces.pas</Transaction>
+    <Transaction>2026/02/26 16:26:59.000.271,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.rtti.helper.pas</Transaction>
+    <Transaction>2026/02/26 16:26:59.000.415,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.types.mapping.pas</Transaction>
+    <Transaction>2026/02/26 16:26:59.000.111,=D:\Desenvolvimento\DBCBr\Source\Core\dbcbr.metadata.register.pas</Transaction>
+    <Transaction>2026/02/26 16:27:14.000.287,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.ddl.generator.absolutedb.pas</Transaction>
+    <Transaction>2026/02/26 16:27:14.000.884,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.ddl.generator.mssql.pas</Transaction>
+    <Transaction>2026/02/26 16:27:14.000.445,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.ddl.generator.firebird.pas</Transaction>
+    <Transaction>2026/02/26 16:27:14.000.590,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.ddl.generator.firebird3.pas</Transaction>
+    <Transaction>2026/02/26 16:27:14.000.739,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.ddl.generator.interbase.pas</Transaction>
+    <Transaction>2026/02/26 16:27:15.000.015,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.ddl.generator.mysql.pas</Transaction>
+    <Transaction>2026/02/26 16:27:15.000.456,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.ddl.generator.sqlite.pas</Transaction>
+    <Transaction>2026/02/26 16:27:15.000.299,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.ddl.generator.postgresql.pas</Transaction>
+    <Transaction>2026/02/26 16:27:15.000.751,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.metadata.firebird.pas</Transaction>
+    <Transaction>2026/02/26 16:27:15.000.599,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.metadata.absolutedb.pas</Transaction>
+    <Transaction>2026/02/26 16:27:15.000.897,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.metadata.firebird3.pas</Transaction>
+    <Transaction>2026/02/26 16:27:15.000.167,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.ddl.generator.oracle.pas</Transaction>
+    <Transaction>2026/02/26 16:27:16.000.790,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.metadata.postgresql.pas</Transaction>
+    <Transaction>2026/02/26 16:27:16.000.026,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.metadata.interbase.pas</Transaction>
+    <Transaction>2026/02/26 16:27:16.000.174,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.metadata.model.pas</Transaction>
+    <Transaction>2026/02/26 16:27:16.000.465,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.metadata.mysql.pas</Transaction>
+    <Transaction>2026/02/26 16:27:16.000.639,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.metadata.oracle.pas</Transaction>
+    <Transaction>2026/02/26 16:27:16.000.335,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.metadata.mssql.pas</Transaction>
+    <Transaction>2026/02/26 16:27:16.000.922,=D:\Desenvolvimento\DBCBr\Source\Drivers\dbcbr.metadata.sqlite.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -32,7 +32,7 @@ interface
 uses
   System.Classes,
   System.Generics.Collections,
-  dbebr.factory.interfaces,
+//  dbebr.factory.interfaces,
   dbcbr.ddl.interfaces,
   dbcbr.ddl.commands;
 
