@@ -35,7 +35,6 @@ requires
 contains
   dbcbr.database.interfaces in 'Source\Core\dbcbr.database.interfaces.pas',
   dbcbr.database.mapping in 'Source\Core\dbcbr.database.mapping.pas',
-  dbcbr.database.metainfo in 'Source\Core\dbcbr.database.metainfo.pas',
   dbcbr.ddl.commands in 'Source\Core\dbcbr.ddl.commands.pas',
   dbcbr.ddl.interfaces in 'Source\Core\dbcbr.ddl.interfaces.pas',
   dbcbr.ddl.register in 'Source\Core\dbcbr.ddl.register.pas',
@@ -53,6 +52,7 @@ contains
   dbcbr.metadata.register in 'Source\Core\dbcbr.metadata.register.pas',
   dbcbr.metadata.extract in 'Source\Core\dbcbr.metadata.extract.pas',
   dbcbr.database.abstract in 'Source\Core\dbcbr.database.abstract.pas',
-  dbcbr.ddl.generator in 'Source\Core\dbcbr.ddl.generator.pas';
+  dbcbr.ddl.generator in 'Source\Core\dbcbr.ddl.generator.pas',
+  dbcbr.database.metainfo in 'Source\Core\dbcbr.database.metainfo.pas';
 
 end.

@@ -105,7 +105,6 @@
         <DCCReference Include="dbrtl.dcp"/>
         <DCCReference Include="Source\Core\dbcbr.database.interfaces.pas"/>
         <DCCReference Include="Source\Core\dbcbr.database.mapping.pas"/>
-        <DCCReference Include="Source\Core\dbcbr.database.metainfo.pas"/>
         <DCCReference Include="Source\Core\dbcbr.ddl.commands.pas"/>
         <DCCReference Include="Source\Core\dbcbr.ddl.interfaces.pas"/>
         <DCCReference Include="Source\Core\dbcbr.ddl.register.pas"/>
@@ -124,6 +123,7 @@
         <DCCReference Include="Source\Core\dbcbr.metadata.extract.pas"/>
         <DCCReference Include="Source\Core\dbcbr.database.abstract.pas"/>
         <DCCReference Include="Source\Core\dbcbr.ddl.generator.pas"/>
+        <DCCReference Include="Source\Core\dbcbr.database.metainfo.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
