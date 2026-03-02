@@ -9,6 +9,6 @@
 		"DBCBr.dproj"
 	],
 	"dependencies": {
-		"github.com/arbsis/dbebr": "^1.1.5"
+		"github.com/arbsis/dbebr": "^1.1.1"
 	}
 }
