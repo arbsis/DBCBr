@@ -30,8 +30,8 @@ unit dbcbr.metadata.register;
 interface
 
 uses
-  System.SysUtils,
-  System.Generics.Collections,
+  SysUtils,
+  Generics.Collections,
   dbcbr.metadata.extract,
   dbebr.factory.interfaces;
 
@@ -98,5 +98,4 @@ finalization
      TMetadataRegister.FInstance.Free;
 
 end.
-
-
+

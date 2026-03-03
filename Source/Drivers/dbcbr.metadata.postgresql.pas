@@ -30,10 +30,10 @@ unit dbcbr.metadata.postgresql;
 interface
 
 uses
-  System.SysUtils,
-  System.Variants,
-  Data.DB,
-  System.Generics.Collections,
+  SysUtils,
+  Variants,
+  DB,
+  Generics.Collections,
   dbcbr.metadata.register,
   dbcbr.metadata.extract,
   dbcbr.database.mapping,

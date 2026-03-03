@@ -27,12 +27,12 @@ unit dbcbr.mapping.attributes;
 interface
 
 uses
-  Data.DB,
-  System.Rtti,
-  System.Classes,
-  System.SysUtils,
-  System.TypInfo,
-  System.Generics.Collections,
+  DB,
+  Rtti,
+  Classes,
+  SysUtils,
+  TypInfo,
+  Generics.Collections,
   dbcbr.mapping.exceptions,
   dbcbr.types.mapping;
 

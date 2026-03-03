@@ -28,8 +28,8 @@ unit dbcbr.mapping.exceptions;
 interface
 
 uses
-  System.SysUtils,
-  System.Rtti;
+  SysUtils,
+  Rtti;
 
 type
   EClassNotRegistered = class(Exception)

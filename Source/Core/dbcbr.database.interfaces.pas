@@ -30,9 +30,9 @@ unit dbcbr.database.interfaces;
 interface
 
 uses
-  System.Classes,
-  System.Generics.Collections,
-//  dbebr.factory.interfaces,
+  Classes,
+  Generics.Collections,
+  dbebr.factory.interfaces,
   dbcbr.ddl.interfaces,
   dbcbr.ddl.commands;
 

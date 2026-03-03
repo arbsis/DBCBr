@@ -28,9 +28,9 @@ unit dbcbr.mapping.repository;
 interface
 
 uses
-  System.Rtti,
-  System.SysUtils,
-  System.Generics.Collections,
+  Rtti,
+  SysUtils,
+  Generics.Collections,
   dbcbr.mapping.exceptions;
 
 type

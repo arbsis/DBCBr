@@ -30,16 +30,15 @@ unit dbcbr.metadata.db.factory;
 interface
 
 uses
-  System.SysUtils,
-  System.Rtti,
-  System.Generics.Collections,
+  SysUtils,
+  Rtti,
+  Generics.Collections,
   dbebr.factory.interfaces,
   dbcbr.metadata.register,
   dbcbr.metadata.extract,
   dbcbr.database.mapping,
   dbcbr.database.abstract;
-
-type
+type
   TMetadataDBAbstract = class abstract
   protected
     FOwner: TDatabaseAbstract;

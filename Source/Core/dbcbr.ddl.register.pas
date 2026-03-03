@@ -30,8 +30,8 @@ unit dbcbr.ddl.register;
 interface
 
 uses
-  System.SysUtils,
-  System.Generics.Collections,
+  SysUtils,
+  Generics.Collections,
   dbcbr.ddl.interfaces,
   dbcbr.ddl.generator,
   dbebr.factory.interfaces;
@@ -100,7 +100,5 @@ finalization
    begin
       TSQLDriverRegister.FInstance.Free;
    end;
-
-end.
-
-
+end.
+

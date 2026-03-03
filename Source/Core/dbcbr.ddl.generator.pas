@@ -30,8 +30,8 @@ unit dbcbr.ddl.generator;
 interface
 
 uses
-  System.SysUtils,
-  System.Generics.Collections,
+  SysUtils,
+  Generics.Collections,
   dbcbr.ddl.interfaces,
   dbebr.factory.interfaces,
   dbcbr.database.mapping,
@@ -128,7 +128,7 @@ type
 implementation
 
 uses
-  System.StrUtils;
+  StrUtils;
 
 { TDDLSQLGenerator }
 

@@ -32,10 +32,10 @@ unit dbcbr.metadata.extract;
 interface
 
 uses
-  Data.DB,
-  System.SysUtils,
-  System.StrUtils,
-  System.Generics.Collections,
+  DB,
+  SysUtils,
+  StrUtils,
+  Generics.Collections,
   dbebr.factory.interfaces,
   dbcbr.metadata.interfaces,
   dbcbr.database.mapping,

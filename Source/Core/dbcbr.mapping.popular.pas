@@ -30,13 +30,13 @@ unit dbcbr.mapping.popular;
 interface
 
 uses
-  Data.DB,
-  System.Classes,
-  System.Rtti,
-  System.TypInfo,
-  System.SysUtils,
-  System.StrUtils,
-  System.Generics.Collections,
+  DB,
+  Classes,
+  Rtti,
+  TypInfo,
+  SysUtils,
+  StrUtils,
+  Generics.Collections,
   dbcbr.mapping.attributes,
   dbcbr.mapping.classes,
   dbcbr.types.mapping;

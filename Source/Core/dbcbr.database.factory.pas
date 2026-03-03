@@ -28,10 +28,10 @@ unit dbcbr.database.factory;
 interface
 
 uses
-  Data.DB,
-  System.Classes,
-  System.SysUtils,
-  System.Generics.Collections,
+  DB,
+  Classes,
+  SysUtils,
+  Generics.Collections,
   dbebr.factory.interfaces,
   dbcbr.ddl.interfaces,
   dbcbr.database.abstract,

@@ -1,19 +1,19 @@
 {
-      ORM Brasil √© um ORM simples e descomplicado para quem utiliza Delphi
+      ORM Brasil È um ORM simples e descomplicado para quem utiliza Delphi
 
                    Copyright (c) 2016, Isaque Pinheiro
                           All rights reserved.
 
                     GNU Lesser General Public License
-                      Vers√£o 3, 29 de junho de 2007
+                      Vers„o 3, 29 de junho de 2007
 
        Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
-       A todos √© permitido copiar e distribuir c√≥pias deste documento de
-       licen√ßa, mas mud√°-lo n√£o √© permitido.
+       A todos È permitido copiar e distribuir cÛpias deste documento de
+       licenÁa, mas mud·-lo n„o È permitido.
 
-       Esta vers√£o da GNU Lesser General Public License incorpora
-       os termos e condi√ß√µes da vers√£o 3 da GNU General Public License
-       Licen√ßa, complementado pelas permiss√µes adicionais listadas no
+       Esta vers„o da GNU Lesser General Public License incorpora
+       os termos e condiÁıes da vers„o 3 da GNU General Public License
+       LicenÁa, complementado pelas permissıes adicionais listadas no
        arquivo LICENSE na pasta principal.
 }
 
@@ -41,25 +41,6 @@
   Delphi XE	        	 22 				VER220          15
   Delphi 2010 	         21 				VER210          14
 }
-
-{$IFDEF VER370}
-  {$DEFINE DELPHI14_UP}
-  {$DEFINE DELPHI15_UP}
-  {$DEFINE DELPHI16_UP}
-  {$DEFINE DELPHI17_UP}
-  {$DEFINE DELPHI18_UP}
-  {$DEFINE DELPHI19_UP}
-  {$DEFINE DELPHI20_UP}
-  {$DEFINE DELPHI21_UP}
-  {$DEFINE DELPHI22_UP}
-  {$DEFINE DELPHI23_UP}
-  {$DEFINE DELPHI24_UP}
-  {$DEFINE DELPHI25_UP}
-  {$DEFINE DELPHI26_UP}
-  {$DEFINE DELPHI27_UP}
-  {$DEFINE DELPHI28_UP}
-  {$DEFINE DELPHI29_UP}
-{$ENDIF}
 
 // Delphi ???
 {$IFDEF VER360}

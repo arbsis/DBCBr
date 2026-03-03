@@ -30,9 +30,9 @@ unit dbcbr.ddl.generator.mssql;
 interface
 
 uses
-  System.SysUtils,
-  System.StrUtils,
-  System.Generics.Collections,
+  SysUtils,
+  StrUtils,
+  Generics.Collections,
   dbebr.factory.interfaces,
   dbcbr.ddl.register,
   dbcbr.ddl.generator,

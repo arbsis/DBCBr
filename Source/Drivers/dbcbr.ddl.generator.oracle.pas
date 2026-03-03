@@ -30,10 +30,10 @@ unit dbcbr.ddl.generator.oracle;
 interface
 
 uses
-  System.SysUtils,
-  System.StrUtils,
-  System.Variants,
-  System.Generics.Collections,
+  SysUtils,
+  StrUtils,
+  Variants,
+  Generics.Collections,
   dbebr.factory.interfaces,
   dbcbr.ddl.register,
   dbcbr.ddl.generator,

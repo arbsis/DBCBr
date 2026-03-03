@@ -28,11 +28,11 @@ unit dbcbr.database.mapping;
 interface
 
 uses
-  Data.DB,
-  System.Rtti,
-  System.SysUtils,
-  System.Generics.Collections,
-  System.Generics.Defaults,
+  DB,
+  Rtti,
+  SysUtils,
+  Generics.Collections,
+  Generics.Defaults,
   dbcbr.types.mapping;
 
 type

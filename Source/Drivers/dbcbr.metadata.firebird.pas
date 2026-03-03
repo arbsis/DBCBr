@@ -30,9 +30,9 @@ unit dbcbr.metadata.firebird;
 interface
 
 uses
-  System.SysUtils,
-  System.Variants,
-  Data.DB,
+  SysUtils,
+  Variants,
+  DB,
   dbebr.factory.interfaces,
   dbcbr.metadata.register,
   dbcbr.metadata.extract,

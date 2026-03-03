@@ -28,8 +28,8 @@ unit dbcbr.database.compare;
 interface
 
 uses
-  System.SysUtils,
-  System.Classes,
+  SysUtils,
+  Classes,
   dbebr.factory.interfaces,
   dbcbr.metadata.db.factory,
   dbcbr.database.factory;

@@ -28,7 +28,7 @@ unit dbcbr.metadata.model;
 interface
 
 uses
-  System.SysUtils,
+  SysUtils,
   dbcbr.metadata.extract,
   dbcbr.metadata.register,
   dbcbr.database.mapping,

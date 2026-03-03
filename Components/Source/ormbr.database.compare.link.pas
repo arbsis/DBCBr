@@ -3,7 +3,7 @@ unit ormbr.database.compare.link;
 interface
 
 uses
-  System.Classes;
+  Classes;
 
 type
   {$IF CompilerVersion > 23}

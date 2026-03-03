@@ -30,10 +30,10 @@ unit dbcbr.metadata.mssql;
 interface
 
 uses
-  Data.DB,
-  System.SysUtils,
-  System.Variants,
-  System.Generics.Collections,
+  DB,
+  SysUtils,
+  Variants,
+  Generics.Collections,
   dbcbr.metadata.register,
   dbcbr.metadata.extract,
   dbcbr.database.mapping,
